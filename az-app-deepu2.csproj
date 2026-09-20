@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_app_deepu2</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/5c2787c0-1dba-4e35-8342-24a33d9002e7/resourceGroups/az-course-rg/providers/microsoft.insights/components/az-app-deepu2</ApplicationInsightsResourceId>
+    <UserSecretsId>f2ec8482-5a86-4b2f-9eb6-e26d11a9060a</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>

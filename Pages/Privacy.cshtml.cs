@@ -14,6 +14,7 @@ namespace az_app_deepu2.Pages
 
         public void OnGet()
         {
+            throw new Exception("Testin Insights");
         }
     }
 
